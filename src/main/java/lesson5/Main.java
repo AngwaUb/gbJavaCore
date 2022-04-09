@@ -34,8 +34,9 @@ public class Main {
             return new AppData(header, data);
         } catch (IOException e) {
             e.printStackTrace();
+            return null;
         }
-        return null;
+
     }
 
     public static void save(AppData appData) {

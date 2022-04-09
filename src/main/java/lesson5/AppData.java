@@ -16,7 +16,7 @@ public class AppData implements Serializable {
     public String toString() {
         return "AppData{" +
                 "header=" + Arrays.toString(header) +
-                ", data=" + Arrays.toString(data) +
+                ", data=" + Arrays.deepToString(data) +
                 '}';
     }
 
